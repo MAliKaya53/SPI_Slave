@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../Notedpad_Projects/fsm_spi.vhd" \
+"../../../../../../../Notedpad_Projects/fsm_spi/spi_tb.vhd" \
+
+# Do not sort compile order
+nosort
